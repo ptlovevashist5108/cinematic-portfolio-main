@@ -48,7 +48,7 @@ export const HeroSection: React.FC = () => {
   }, []);
 
   return (
-    <section className="relative w-screen min-h-screen h-dvh overflow-hidden bg-black text-[#E8DFD8] font-sans selection:bg-[#cbb59d] selection:text-black cursor-none">
+    <section className="relative w-full min-h-screen overflow-hidden bg-black text-[#E8DFD8] font-sans selection:bg-[#cbb59d] selection:text-black cursor-none">
       {cursorPos.x >= 0 && (
         <motion.div
           className="fixed top-0 left-0 pointer-events-none z-50 rounded-full border border-[#D4AF37]/40 flex items-center justify-center backdrop-blur-[1px]"
@@ -63,13 +63,13 @@ export const HeroSection: React.FC = () => {
         />
       )}
 
-      <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none bg-black flex items-center justify-center md:justify-end">
+      <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none bg-black">
         <video
           autoPlay
           muted
           loop
           playsInline
-          className="w-full h-full object-cover md:h-screen md:w-auto md:max-w-none md:object-contain md:origin-right md:scale-95 lg:scale-100"
+          className="w-full h-full object-cover"
         >
           <source src="/videos/hero.mp4" type="video/mp4" />
         </video>
@@ -94,7 +94,7 @@ export const HeroSection: React.FC = () => {
         </div>
       </div>
 
-      <div className="relative z-10 flex flex-col justify-between h-full w-full px-6 sm:px-12 lg:px-16 pt-6 pb-8 pointer-events-none">
+      <div className="relative z-10 flex flex-col justify-between min-h-screen w-full px-6 sm:px-12 lg:px-16 pt-6 pb-8 pointer-events-none">
         <header className="relative flex items-center justify-between w-full pointer-events-auto">
           <a
             href="#"
