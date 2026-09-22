@@ -96,7 +96,7 @@ export const HeroSection: React.FC = () => {
 
       <div className="relative z-10 flex flex-col justify-between h-full w-full px-6 sm:px-12 lg:px-16 pt-6 pb-8 pointer-events-none">
         <header className="relative flex items-center justify-between w-full pointer-events-auto">
-          
+          <a
             href="#"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
@@ -111,7 +111,7 @@ export const HeroSection: React.FC = () => {
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
             {navItems.map((item) => (
-              
+              <a
                 key={item.name}
                 href={item.href}
                 onMouseEnter={() => setIsHovered(true)}
@@ -124,7 +124,7 @@ export const HeroSection: React.FC = () => {
             ))}
           </nav>
 
-          
+          <a
             href="#contact"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
