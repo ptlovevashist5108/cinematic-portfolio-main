@@ -19,7 +19,7 @@ const projects: Project[] = [
     category: 'FULL STACK / WEATHER APPLICATION',
     description:
       'Full-stack weather application connecting an Angular UI with a Node.js and Express.js backend. Implements REST endpoints with route-controller separation and middleware, MySQL integration through mysql2, async/await handling, and live JSON responses rendered in Angular using HttpClient.',
-    githubUrl: 'https://github.com/lohithadamisetti123',
+    githubUrl: 'https://github.com/ptlovevashist5108',
     tech: [
       'Angular',
       'TypeScript',
@@ -41,7 +41,7 @@ const projects: Project[] = [
     category: 'PYTHON / INVENTORY MANAGEMENT',
     description:
       'Python Flask and SQLite3 based inventory and billing management system with automated GST billing and invoice generation, real-time inventory tracking with automatic stock deduction, and bulk CSV import functionality.',
-    githubUrl: 'https://github.com/lohithadamisetti123',
+    githubUrl: 'https://github.com/ptlovevashist5108',
     tech: [
       'Python',
       'Flask',
@@ -63,7 +63,7 @@ const projects: Project[] = [
     category: 'FULL STACK / TASK MANAGEMENT',
     description:
       'Full-stack task management application built end-to-end with React, Vite, Node.js, Express, PostgreSQL, Docker, and Keycloak. Implements secure Keycloak authentication, per-user data isolation, and complete CRUD functionality for managing tasks.',
-    githubUrl: 'https://github.com/lohithadamisetti123',
+    githubUrl: 'https://github.com/ptlovevashist5108',
     tech: [
       'React',
       'Vite',
@@ -85,7 +85,7 @@ const projects: Project[] = [
     category: '3D BUSINESS WEBSITE',
     description:
       "Interactive 3D business website built for Kavita's Slimming Point using React, Vite, Three.js, Node.js, Express, MySQL, and Cloudinary. Features an interactive React Three Fiber hero, Cloudinary image management, and a MySQL-backed service catalog.",
-    githubUrl: 'https://github.com/lohithadamisetti123',
+    githubUrl: 'https://github.com/ptlovevashist5108',
     tech: [
       'React',
       'Vite',
@@ -107,7 +107,7 @@ const projects: Project[] = [
     category: 'DESKTOP APP / AUTOMATION',
     description:
       'Desktop application for multithreaded bulk UPI payment QR code generation with Excel integration and PDF export, built using Python with PyQt5/PySide6.',
-    githubUrl: 'https://github.com/lohithadamisetti123',
+    githubUrl: 'https://github.com/ptlovevashist5108',
     tech: [
       'Python',
       'PyQt5',
@@ -127,7 +127,7 @@ const projects: Project[] = [
     category: 'FULL STACK / EXPENSE MANAGEMENT',
     description:
       'Full-stack expense tracking application built with React, Node.js, Express, PostgreSQL, and Keycloak. Implements Keycloak authentication, per-user isolation, and complete CRUD functionality for managing expenses.',
-    githubUrl: 'https://github.com/lohithadamisetti123',
+    githubUrl: 'https://github.com/ptlovevashist5108',
     tech: [
       'React',
       'Node.js',
@@ -155,7 +155,6 @@ export const ProjectsSection: React.FC = () => {
       <div className="absolute bottom-1/4 right-1/4 w-[30rem] h-[30rem] bg-[#8C6D4F]/5 rounded-full blur-[170px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto w-full relative z-10">
-        
         {/* Eyebrow Header */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -316,13 +315,11 @@ export const ProjectsSection: React.FC = () => {
                       <span className="text-xs">↗</span>
                     </a>
                   </div>
-
                 </div>
               </div>
             </ScrollStackItem>
           ))}
         </ScrollStack>
-
       </div>
     </section>
   );
